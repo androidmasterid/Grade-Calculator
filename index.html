@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grade Calculator</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+	
+	
+</head>
+<body>
+	
+	<div class="main">
+		<div class="box">
+			<div class="part1">
+				<h1>Student<br> Grade<br> Calculator</h1>
+			</div>
+			<div class="part2">
+				<input type="text" placeholder="English" id="eng" required>
+				<input type="text" placeholder="Hindi" id="hin">
+				<input type="text" placeholder="Maths" id="math">
+				<input type="text" placeholder="Science" id="sci">
+				<input type="text" placeholder="Art" id="art">
+				<input type="button" name="submit" value="submit" onclick="calcy()">
+
+				<div class="show">
+					<p>Total = <span id="total"> </span></p>
+					<p>Result = <span id="result"> </span></p>
+					<p>Percentage = <span id="per"> </span></p>
+					<p>Grade = <span id="grade"> </span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
